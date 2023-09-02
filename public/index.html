@@ -1,43 +1,2034 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Page Title -->
+    <title> Business-1-Multipage</title>
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="assets/img/fv.png" type="image/x-icon">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/flaticon-7.css">
+    <link rel="stylesheet" href="assets/css/rs6.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/side-demo.css">
+    <link rel="stylesheet" href="assets/css/business-1.css">
+</head>
+
+<body class="pr1-body">
+
+    <!-- Preloader-->
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="loading-preloader">
+        <div id="loading-preloader">
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+        </div>
+    </div>
+    <div class="sb-scrollup">
+        <a href="#" id="scrollup" class="pr1-scroll-top text-center"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <!-- Preloader End -->
+    <div class="demo-page-landing">
+        <div class="side-demo-close side-demo"><i class="fas fa-times"></i></div>
+        <div class="demo-title text-center">
+            <h2>Pre-Built Demos Collection</h2>
+            <p>SaaSio comes with a beautiful collection of modern, easily importable, and highly customizable demo layouts.</p>
+        </div>
+        <div class="demo-page-landing-wrap sa-demo-bar justify-content-center">
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Main</span> 
+                    <img alt="Demo" src="assets/img-demo/d1.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-7.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaSio Main</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d52.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-42.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-42.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Online Payment</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d53.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-43.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-43.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency 2023</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d54.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-44.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-44.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Marketing 2023</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d55.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-45.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-45.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>NFT 2023</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d56.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-46.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-46.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaS 2023</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d57.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-47.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-47.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>IT Solution 2023</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d58.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-48.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-48.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Help Desk</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d59.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-49.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-49.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>IT solution 2023 (V.2)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">New</span> 
+                    <img alt="Demo" src="assets/img-demo/d60.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-50.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-50.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Law Firm</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d55.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-45.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-45.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Cryto Currency</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner"> 
+                    <img alt="Demo" src="assets/img-demo/d50.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-41.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-41.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaSio NFT</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Popular</span> 
+                    <img alt="Demo" src="assets/img-demo/d2.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-4.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-4.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaS Classic</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Popular</span> 
+                    <img alt="Demo" src="assets/img-demo/d3.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-3.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-3.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaS Modern</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Hot</span> 
+                    <img alt="Demo" src="assets/img-demo/d5.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-6.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-6.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency</h6>
+            </div>
+            <!-- Top Popular -->
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d36.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-26.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-26.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Marketing Agency</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d37.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-27.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-27.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Marketing</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d38.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-28.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-28.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>App Landing</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d39.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-29.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-29.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency 2</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d40.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-30.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-30.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Business Consult-4</h6>
+            </div>
+            <!-- New -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d41.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-31.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-31.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Personal Portfolio</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d42.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-32.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-32.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Creative Studio</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d43.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-33.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-33.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>IT Solutions-3</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d44.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-35-1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-35.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Business & Finance</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d45.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-34-1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-34.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d46.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-36.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-36.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Business Consulting</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d47.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-37.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-37.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d48.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-38.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-38.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Finance Consulting</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d49.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-38.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-38.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Marketing</h6>
+            </div>
+
+
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d18.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-19.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-19.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Gym Fitness</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner"> 
+                    <img alt="Demo" src="assets/img-demo/d19.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-20.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-20.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Education</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d20.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-21.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-21.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Travel Agency</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d21.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-22.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-22.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>It solution-2</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner"> 
+                    <img alt="Demo" src="assets/img-demo/d22.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-23.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-23.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Business Consult-1</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d23.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-24.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-24.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Business Consult-2</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d24.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-25.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-25.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Business Consult-3</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d7.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-8.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-8.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>HR Management</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d8.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-9.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-9.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>CR Management</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d9.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-10.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-10.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Social Media Marketing</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d10.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-11.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-11.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Software Management</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d11.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-12.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-12.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Cyber Security</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d12.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-13.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-13.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Email Marketing</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d13.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-14.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-14.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Web Application</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d14.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-15.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-15.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SEO Agency</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d15.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-16.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-16.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Medical</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d16.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-17.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-17.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Resturannt</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d17.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-18.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-18.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>IT Solutions-1</h6>
+            </div> 
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d4.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-2.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-2.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital SEO</h6>
+            </div> 
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <img alt="Demo" src="assets/img-demo/d6.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="index-5.1.html" target="_blank">One Page</a>
+                            <a class="btn btn-default" href="index-5.html" target="_blank">Multi Pages</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Startup Agency</h6>
+            </div> 
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Dark Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d25.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="dark-home-1.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaSio Main (Dark)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Dark Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d26.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="dark-home-2.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaS Classic (Dark)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Dark Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d27.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="dark-home-3.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency (Dark)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Dark Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d28.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="dark-home-4.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>StartUp Agency (Dark)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Dark Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d29.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="dark-home-5.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>HR Management (Dark)
+                </h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">Dark Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d30.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="dark-home-6.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SMM (Dark)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">RTL Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d31.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="SaaSio-Rtl/index-5.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SMM (RTL))</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">RTL Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d32.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="SaaSio-Rtl/index.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>Digital Agency (RTL)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">RTL Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d33.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="SaaSio-Rtl/index-2.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>SaaSio Main (RTL)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">RTL Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d34.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="SaaSio-Rtl/index-3.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>HR Management (RTL)</h6>
+            </div>
+            <div class="sa-demo-bar-item">
+                <div class="sa-demo-bar-item-inner">
+                    <span class="demo-label position-absolute">RTL Version</span> 
+                    <img alt="Demo" src="assets/img-demo/d35.jpg" alt="">
+                    <div class="sa-demo-bar-holder">
+                        <div class="sa-demo-btn-group"> 
+                            <a class="btn btn-default" href="SaaSio-Rtl/index-4.html" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                </div>
+                <h6>CR Management(RTL)</h6>
+            </div>
+        </div>
+    </div>
+    <!-- ScrollTop Button -->
+    <a href="#" class="pr1-scroll-top"><i class="fas fa-angle-double-up"></i></a>
+
+    <!-- Header Section -->
+    <header class="pr1-header-section">
+        <div class="container">
+            <div class="pr1-header-wrapper">
+                <a href="index.html" class="pr1-header-logo"><img src="assets/img/business-1/logo.png" alt=""></a>
+                <!-- Desktop Menu -->
+                <div class="row align-items-center desktop-menu">
+                    <div class="col-lg-11">
+                        <div class="pr1-navigation-menu">
+                            <nav>
+                                <ul>
+                                    <li class="side-demo position-relative"><a href="#!">Demos</a> <span>New</span></li>
+                                    <li><a href="about.html" target="_blank">About</a></li>
+                                    <li class="dropdown">
+                                        <a href="#">Pages</a>
+                                        <ul class="dropdown-menu clearfix">
+                                            <li><a target="_blank" href="team.html">Team Page</a></li>
+                                            <li><a target="_blank" href="service.html">Service 1</a></li>
+                                            <li><a target="_blank" href="service-2.html">Service 2</a></li>
+                                            <li><a target="_blank" href="faq.html">FAQ Page</a></li>
+                                            <li><a target="_blank" href="privacy-policy.html">Privacy Policy</a></li>
+                                            <li><a target="_blank" href="terms-condition.html">Terms & Condition</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Contact</a>
+                                        <ul class="dropdown-menu clearfix">
+                                            <li><a target="_blank" href="contact.html">Contact 1</a></li>
+                                            <li><a target="_blank" href="contact-2.html">Contact 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Portfolio</a>
+                                        <ul class="dropdown-menu clearfix">
+                                            <li><a target="_blank" href="portfolio.html">Portfolio Filter</a></li>
+                                            <li><a target="_blank" href="portfolio-2.html">Portfolio Page 2</a></li>
+                                            <li><a target="_blank" href="project-single.html">Portfolio Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Blog</a>
+                                        <ul class="dropdown-menu clearfix">
+                                            <li><a target="_blank" href="blog.html">Blog Page</a></li>
+                                            <li><a target="_blank" href="blog-grid.html">Blog Page</a></li>
+                                            <li><a target="_blank" href="blog-single.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-1">
+                        <span class="pr1-sidebar-btn"><i class="fas fa-bars"></i></span>
+                    </div>
+                </div>
+                <!-- Desktop Menu End -->
+
+
+                <!-- Mobile Menu -->
+                <span class="pr1-mobile-menu-open"><i class="fas fa-bars"></i></span>
+                <div class="row pr1-mobile-menu">
+                    <nav>
+                        <span class="pr1-mobile-menu-close"><i class="fas fa-times"></i></span>
+                        <a href="index.html" class="pr1-mobile-logo"><img src="assets/img/business-1/logo2.png" alt=""></a>
+                        <ul>
+                            <li class="side-demo position-relative"><a href="#!">Demos</a></li>
+                            <li><a href="about.html" target="_blank">About</a></li>
+                            <li class="dropdown">
+                                <a href="#">Pages</a>
+                                <ul class="dropdown-menu clearfix">
+                                    <li><a target="_blank" href="team.html">Team Page</a></li>
+                                    <li><a target="_blank" href="service.html">Service 1</a></li>
+                                    <li><a target="_blank" href="service-2.html">Service 2</a></li>
+                                    <li><a target="_blank" href="faq.html">FAQ Page</a></li>
+                                    <li><a target="_blank" href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a target="_blank" href="terms-condition.html">Terms & Condition</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Contact</a>
+                                <ul class="dropdown-menu clearfix">
+                                    <li><a target="_blank" href="contact.html">Contact 1</a></li>
+                                    <li><a target="_blank" href="contact-2.html">Contact 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Portfolio</a>
+                                <ul class="dropdown-menu clearfix">
+                                    <li><a target="_blank" href="portfolio.html">Portfolio Filter</a></li>
+                                    <li><a target="_blank" href="portfolio-2.html">Portfolio Page 2</a></li>
+                                    <li><a target="_blank" href="project-single.html">Portfolio Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Blog</a>
+                                <ul class="dropdown-menu clearfix">
+                                    <li><a target="_blank" href="blog.html">Blog Page</a></li>
+                                    <li><a target="_blank" href="blog-grid.html">Blog Page</a></li>
+                                    <li><a target="_blank" href="blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Sidebar Info -->
+    <div class="pr1-sidebar-info">
+        <div class="pr1-overlay-bg"></div>
+        <div class="pr1_sidebar_info_content">
+            <span class="close-menu"><i class="fas fa-times"></i></span>
+            <div class="pr1_sidebar_logo">
+                <a href="#"><img src="assets/img/business-1/logo.png" alt=""></a>
+            </div>
+            <div class="pr1-pera-txt">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyert et eirmod tempor invidunt ut labore et ert dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et cer justo duo dolores et berr ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor.</p>
+            </div>
+            <div class="pr1-sidebar-gallery">
+                <ul>
+                    <li>
+                        <a href="#"><img src="assets/img/business-1/gallery/01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/img/business-1/gallery/02.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/img/business-1/gallery/03.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/img/business-1/gallery/04.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/img/business-1/gallery/05.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="assets/img/business-1/gallery/06.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pr1-sidebar-social">
+                <div class="pr1-headline">
+                    <h5>Follow us on</h5>
+                </div>
+                <div class="pr1-social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="pr1-sidebar-copyright">
+                <p>&copy; Copyright By <a href="#">Themexriver</a></p>
+            </div>
+        </div>  
+    </div>
+    <!-- Sidebar Info End -->
+
+    <!-- Hero Slider -->
+    <div class="pr1-hero-section">
+        <p class="rs-p-wp-fix"></p>
+        <rs-module-wrap id="rev_slider_26_1_wrapper" data-alias="prysm-11-1-1" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+            <rs-module id="rev_slider_26_1" data-version="6.4.6">
+                <rs-slides>
+                    <rs-slide data-key="rs-85" data-title="prysm" data-anim="p:dark;f:nodelay;" data-in="prst:rndcolumns;x:(100%);m:true;col:5;">
+                        <img src="assets/img/business-1/slider/banner.jpg" width="1920" height="937" class="rev-slidebg tp-rs-img" data-no-retina>
+                        <rs-group
+                        id="slider-26-slide-85-layer-5" 
+                        data-type="group"
+                        data-rsp_ch="on"
+                        data-xy="x:r,l,l,l;xo:0,15px,15px,15px;y:m;"
+                        data-text="w:normal;s:20,21,15,9;l:0,27,20,12;"
+                        data-dim="w:698px,760px,577px,355px;h:493,537,407,251;"
+                        data-frame_0="o:1;"
+                        data-frame_999="o:0;st:w;sA:9000;"
+                        style="z-index:14;"
+                        >
+                        <rs-layer
+                        id="slider-26-slide-85-layer-0" 
+                        class="rev-btn"
+                        data-type="button"
+                        data-color="#010148"
+                        data-rsp_ch="on"
+                        data-xy="xo:210px,206px,156px,96px;yo:360px,392px,297px,183px;"
+                        data-text="w:normal;s:15,16,12,7;l:20,21,15,9;ls:1,1,0,0;fw:700;"
+                        data-dim="minh:0px,none,none,none;"
+                        data-padding="t:12,13,10,6;r:35,38,29,18;b:12,13,10,6;l:35,38,29,18;"
+                        data-border="bos:solid;boc:#2782f9;bow:2px,2px,2px,2px;bor:5px,5px,5px,5px;"
+                        data-frame_0="sX:0.9;sY:0.9;"
+                        data-frame_1="e:power2.inOut;st:3600;sp:1200;"
+                        data-frame_999="o:0;st:w;"
+                        data-frame_hover="c:#fff;bgc:#2782f9;boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
+                        style="z-index:12;background-color:rgba(39,130,249,0);font-family:Spartan;text-transform:capitalize;"
+                        >get a quote 
+                    </rs-layer>
+
+                    <rs-layer
+                    id="slider-26-slide-85-layer-1" 
+                    data-type="image"
+                    data-rsp_ch="on"
+                    data-xy="xo:425px,462px,351px,216px;yo:210px,228px,173px,106px;"
+                    data-text="w:normal;s:20,21,15,9;l:0,27,20,12;"
+                    data-dim="w:349px,380px,288px,177px;h:297px,323px,245px,151px;"
+                    data-frame_0="x:-175%;o:1;"
+                    data-frame_0_mask="u:t;x:100%;"
+                    data-frame_1="e:power3.out;st:3500;sp:1000;"
+                    data-frame_1_mask="u:t;"
+                    data-frame_999="o:0;st:w;"
+                    style="z-index:13;"
+                    ><img src="assets/img/business-1/slider/shape.png" class="tp-rs-img" width="323" height="275" data-no-retina> 
+                </rs-layer>
+
+                <rs-layer
+                id="slider-26-slide-85-layer-3" 
+                class="rev-btn"
+                data-type="button"
+                data-rsp_ch="on"
+                data-xy="yo:360px,392px,297px,183px;"
+                data-text="w:normal;s:15,16,12,7;l:20,21,15,9;ls:1,1,0,0;fw:700;"
+                data-dim="minh:0px,none,none,none;"
+                data-padding="t:12,13,10,6;r:35,38,29,18;b:12,13,10,6;l:35,38,29,18;"
+                data-border="bos:solid;boc:#2782f9;bow:2px,2px,2px,2px;bor:5px,5px,5px,5px;"
+                data-frame_0="sX:0.9;sY:0.9;"
+                data-frame_1="e:power2.inOut;st:3600;sp:1200;"
+                data-frame_999="o:0;st:w;"
+                data-frame_hover="c:#010148;bgc:rgba(255,108,0,0);boc:#2782f9;bor:5px,5px,5px,5px;bos:solid;bow:2px,2px,2px,2px;sp:200;blu:0px;"
+                style="z-index:11;background-color:#2782f9;font-family:Spartan;text-transform:capitalize;font-weight:700;"
+                >Our Service 
+            </rs-layer>
+
+            <rs-layer
+            id="slider-26-slide-85-layer-9" 
+            data-type="text"
+            data-color="#010148"
+            data-rsp_ch="on"
+            data-xy="x:r;yo:63px,68px,51px,31px;"
+            data-text="w:normal;s:68,74,56,34;l:72,78,59,36;fw:700;"
+            data-dim="w:698px,760px,577px,355px;"
+            data-frame_0="o:1;"
+            data-frame_0_chars="d:5;x:105%;o:1;rY:45deg;rZ:90deg;"
+            data-frame_0_mask="u:t;"
+            data-frame_1="st:1200;sp:1200;"
+            data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+            data-frame_1_mask="u:t;"
+            data-frame_999="o:0;st:w;"
+            style="z-index:9;font-family:Spartan;"
+            >Best Business <br />Consulting Service 
+        </rs-layer>
+
+        <rs-layer
+        id="slider-26-slide-85-layer-11" 
+        data-type="text"
+        data-color="#010148"
+        data-rsp_ch="on"
+        data-xy="yo:245px,266px,202px,124px;"
+        data-text="w:normal;s:20,21,15,9;l:30,32,24,14;td:none;"
+        data-dim="w:696px,758px,575px,354px;"
+        data-frame_0="y:-100%;"
+        data-frame_0_mask="u:t;"
+        data-frame_1="st:2400;sp:1200;"
+        data-frame_1_mask="u:t;"
+        data-frame_999="o:0;st:w;"
+        style="z-index:10;font-family:Roboto;"
+        >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ida. Risus commodo viverra maecenas .  
+    </rs-layer>
+</rs-group>
+
+<rs-layer
+id="slider-26-slide-85-layer-10" 
+data-type="image"
+data-rsp_ch="on"
+data-xy="xo:60px,65px,49px,30px;y:b;yo:100px,108px,82px,50px;"
+data-text="w:normal;s:20,21,15,9;l:0,27,20,12;"
+data-dim="w:661px,720px,547px,337px;h:603px,656px,498px,307px;"
+data-vbility="t,f,f,f"
+data-basealign="slide"
+data-frame_0="x:-50,-54,-41,-25;"
+data-frame_1="sp:1000;"
+data-frame_999="o:0;st:w;"
+style="z-index:7;"
+><img src="assets/img/business-1/slider/object.png" class="tp-rs-img" width="749" height="683" data-no-retina> 
+</rs-layer>
+</rs-slide>
+</rs-slides>
+</rs-module>
+</rs-module-wrap>
+</div>
+<!-- Hero Slider End -->
+
+<!-- Work Section -->
+<section class="pr1-work-section">
+    <span class="pr1-work-shape-1" data-parallax='{"y": 120}' ><img src="assets/img/business-1/work/shape-01.png" alt=""></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="pr1-title-area wow fadeInLeft">
+                    <div class="pr1-headline">
+                        <h2>How we work</h2>
+                    </div>
+                    <div class="pr1-pera-txt">
+                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua vel facilisis. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pr1-work-content">
+            <span class="pr1-work-shape-2" data-parallax='{"scale": 1.2}'><img src="assets/img/business-1/work/shape-02.png" alt=""></span>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-work-column wow fadeInUp">
+                        <div class="pr1-icon-container">
+                            <i class="flaticon-accounting"></i>
+                        </div>
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Account & Audit service</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>All companies in every country have to submit income and loss be regular company</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-work-column wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pr1-icon-container">
+                            <i class="flaticon-analysis"></i>
+                        </div>
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Business Analysis</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>All companies in every country have to submit income and loss be regular company</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-work-column wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="pr1-icon-container">
+                            <i class="flaticon-financial-database"></i>
+                        </div>
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Financial Advisory</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>All companies in every country have to submit income and loss be regular company</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-work-column wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="pr1-icon-container">
+                            <i class="flaticon-online-registration"></i>
+                        </div>
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Company Registration</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>All companies in every country have to submit income and loss be regular company</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-work-column wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="pr1-icon-container">
+                            <i class="flaticon-project-management"></i>
+                        </div>
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Project Management</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>All companies in every country have to submit income and loss be regular company</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-work-column wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="pr1-icon-container">
+                            <i class="flaticon-quality"></i>
+                        </div>
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Quality Assurance</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>All companies in every country have to submit income and loss be regular company</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Work Section End -->
+
+<!-- Business Section -->
+<section class="pr1-business-section" data-background="assets/img/business-1/business/bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="pr1-business-left wow fadeInLeft">
+                    <span class="pr1-business-shape-1"><img src="assets/img/business-1/business/shape-01.png" alt=""></span>
+                    <div class="pr1-img-bg">
+                        <div class="pr1-img-container">
+                            <img src="assets/img/business-1/business/01.jpg" alt="">
+                            <div class="pr1-img-container pr1-img-2">
+                                <img src="assets/img/business-1/business/02.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="pr1-business-right">
+                    <div class="pr1-title-area wow fadeInDown">
+                        <div class="pr1-headline">
+                            <h2>We only the right business solution</h2>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                    <div class="pr1-business-txt pr1-pera-txt wow fadeInUp">
+                        <p>We have 10+ Years of experience. We offer business consulting services.</p>
+                    </div>
+                    <div class="pr1-business-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="pr1-business-column wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="pr1-icon-container">
+                                        <i class="flaticon-consultant"></i>
+                                    </div>
+                                    <div class="pr1-headline">
+                                        <a href="#"><h5>Consulting service</h5></a>
+                                    </div>
+                                    <div class="pr1-pera-txt">
+                                        <p>All companies in every country have to submit income and loss be regular company</p>
+                                    </div>
+                                    <div class="pr1-readmore-btn">
+                                        <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="pr1-business-column wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="pr1-icon-container">
+                                        <i class="flaticon-hands-and-gestures"></i>
+                                    </div>
+                                    <div class="pr1-headline">
+                                        <a href="#"><h5>Advice service</h5></a>
+                                    </div>
+                                    <div class="pr1-pera-txt">
+                                        <p>All companies in every country have to submit income and loss be regular company</p>
+                                    </div>
+                                    <div class="pr1-readmore-btn">
+                                        <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Business Section End -->
+
+<!-- Team Section -->
+<section class="pr1-team-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="pr1-title-area text-center wow fadeInUp">
+                    <div class="pr1-headline">
+                        <h2>Meet Expert Consultant</h2>
+                    </div>
+                    <div class="pr1-pera-txt p-70">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pr1-team-content">
+            <span class="pr1-team-shape-1"><img src="assets/img/business-1/team/shape-1.png" alt=""></span>
+            <span class="pr1-team-shape-2"><img src="assets/img/business-1/team/shape-2.png" alt=""></span>
+            <div class="pr1-team-slider">
+                <div class="pr1-team-single">
+                    <div class="pr1-team-slider-left">
+                        <div class="pr1-team-thumb">
+                            <div class="pr1-team-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <img src="assets/img/business-1/team/01.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pr1-team-slider-right text-center">
+                        <div class="pr1-headline">
+                            <a href="#"><h5>rebecca tylor</h5></a>
+                            <span>Consultant</span>
+                        </div>
+                        <div class="pr1-team-btn">
+                            <a href="#">Explore more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pr1-team-single">
+                    <div class="pr1-team-slider-left">
+                        <div class="pr1-team-thumb">
+                            <div class="pr1-team-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <img src="assets/img/business-1/team/02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pr1-team-slider-right text-center">
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Jessica Martin</h5></a>
+                            <span>Consultant</span>
+                        </div>
+                        <div class="pr1-team-btn">
+                            <a href="#">Explore more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pr1-team-single">
+                    <div class="pr1-team-slider-left">
+                        <div class="pr1-team-thumb">
+                            <div class="pr1-team-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <img src="assets/img/business-1/team/03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pr1-team-slider-right text-center">
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Jessica Martin</h5></a>
+                            <span>Consultant</span>
+                        </div>
+                        <div class="pr1-team-btn">
+                            <a href="#">Explore more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pr1-team-single">
+                    <div class="pr1-team-slider-left">
+                        <div class="pr1-team-thumb">
+                            <div class="pr1-team-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <img src="assets/img/business-1/team/01.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pr1-team-slider-right text-center">
+                        <div class="pr1-headline">
+                            <a href="#"><h5>Rebecca Tylor</h5></a>
+                            <span>Consultant</span>
+                        </div>
+                        <div class="pr1-team-btn">
+                            <a href="#">Explore more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Section End -->
+
+<!-- Portfolio Section -->
+<section class="pr1-portfolio-section" data-background="assets/img/business-1/business/bg.jpg">
+    <span class="pr1-pf-shape-1"><img src="assets/img/business-1/portfolio/pf-shape-1.png" alt=""></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="pr1-title-area wow fadeInDown">
+                    <div class="pr1-headline">
+                        <h2>Portfolio Case Studey</h2>
+                    </div>
+                    <div class="pr1-pera-txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pr1-portfolio-content">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-pf-column wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pr1-img-container">
+                            <div class="pr1-img-wrapper">
+                                <img src="assets/img/business-1/portfolio/01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pr1-pf-overlay">
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                                <span>Business Consulting</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-pf-column wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="pr1-img-container">
+                            <div class="pr1-img-wrapper">
+                                <img src="assets/img/business-1/portfolio/02.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pr1-pf-overlay">
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                                <span>Business Consulting</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-pf-column wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="pr1-img-container">
+                            <div class="pr1-img-wrapper">
+                                <img src="assets/img/business-1/portfolio/03.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pr1-pf-overlay">
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                                <span>Business Consulting</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-pf-column wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="pr1-img-container">
+                            <div class="pr1-img-wrapper">
+                                <img src="assets/img/business-1/portfolio/04.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pr1-pf-overlay">
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                                <span>Business Consulting</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-pf-column wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="pr1-img-container">
+                            <div class="pr1-img-wrapper">
+                                <img src="assets/img/business-1/portfolio/05.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pr1-pf-overlay">
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                                <span>Business Consulting</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-pf-column wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="pr1-img-container">
+                            <div class="pr1-img-wrapper">
+                                <img src="assets/img/business-1/portfolio/06.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="pr1-pf-overlay">
+                            <a href="#">
+                                <i class="fas fa-link"></i>
+                                <span>Business Consulting</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pr1-primary-btn text-center wow fadeInUp">
+                <a href="#">All Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+<!-- Pricing Section -->
+<section class="pr1-pricing-section">
+    <span class="pr1-pricing-shape-1" data-parallax='{"y": 120}'><img src="assets/img/business-1/pricing-shape-1.png" alt=""></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="pr1-title-area text-center wow fadeInUp">
+                    <div class="pr1-headline">
+                        <h2>See our pricing plans</h2>
+                    </div>
+                    <div class="pr1-pera-txt p-70">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pr1-pricing-tab wow fadeInDown">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pr1-pricing-nav text-center">
+                        <ul class="nav">
+                            <li><a class="active" data-toggle="pill" href="#tab_monthly">Monthly</a></li>
+                            <li><a data-toggle="pill" href="#tab_yearly">Yearly</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="tab_monthly">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="pr1-tab-column">
+                                        <span class="pr1-tab-icon"><i class="flaticon-design"></i></span>
+                                        <div class="pr1-headline">
+                                            <h5>Primary Plan</h5>
+                                        </div>
+                                        <div class="pr1-tab-price pr1-headline">
+                                            <h2>$99 / <span>Monthly</span></h2>
+                                        </div>
+                                        <div class="pr1-tab-features">
+                                            <ul>
+                                                <li>Extra features</li>
+                                                <li>Lifetime free support</li>
+                                                <li>24/7 online support</li>
+                                                <li>Advice and guides</li>
+                                                <li>Tools and Calculators</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pr1-tab-btn">
+                                            <a href="#">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="pr1-tab-column">
+                                        <span class="pr1-tab-icon"><i class="flaticon-website"></i></span>
+                                        <div class="pr1-headline">
+                                            <h5>Basic Plan</h5>
+                                        </div>
+                                        <div class="pr1-tab-price pr1-headline">
+                                            <h2>$199 / <span>Monthly</span></h2>
+                                        </div>
+                                        <div class="pr1-tab-features">
+                                            <ul>
+                                                <li>Extra features</li>
+                                                <li>Lifetime free support</li>
+                                                <li>24/7 online support</li>
+                                                <li>Advice and guides</li>
+                                                <li>Tools and Calculators</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pr1-tab-btn">
+                                            <a href="#">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="pr1-tab-column">
+                                        <span class="pr1-tab-icon"><i class="flaticon-quality"></i></span>
+                                        <div class="pr1-headline">
+                                            <h5>Premium Plan</h5>
+                                        </div>
+                                        <div class="pr1-tab-price pr1-headline">
+                                            <h2>$250 / <span>Monthly</span></h2>
+                                        </div>
+                                        <div class="pr1-tab-features">
+                                            <ul>
+                                                <li>Extra features</li>
+                                                <li>Lifetime free support</li>
+                                                <li>24/7 online support</li>
+                                                <li>Advice and guides</li>
+                                                <li>Tools and Calculators</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pr1-tab-btn">
+                                            <a href="#">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab_yearly">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="pr1-tab-column">
+                                        <span class="pr1-tab-icon"><i class="flaticon-design"></i></span>
+                                        <div class="pr1-headline">
+                                            <h5>Primary Plan</h5>
+                                        </div>
+                                        <div class="pr1-tab-price pr1-headline">
+                                            <h2>$499 / <span>Yearly</span></h2>
+                                        </div>
+                                        <div class="pr1-tab-features">
+                                            <ul>
+                                                <li>Extra features</li>
+                                                <li>Lifetime free support</li>
+                                                <li>24/7 online support</li>
+                                                <li>Advice and guides</li>
+                                                <li>Tools and Calculators</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pr1-tab-btn">
+                                            <a href="#">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="pr1-tab-column">
+                                        <span class="pr1-tab-icon"><i class="flaticon-website"></i></span>
+                                        <div class="pr1-headline">
+                                            <h5>Basic Plan</h5>
+                                        </div>
+                                        <div class="pr1-tab-price pr1-headline">
+                                            <h2>$1200 / <span>Yearly</span></h2>
+                                        </div>
+                                        <div class="pr1-tab-features">
+                                            <ul>
+                                                <li>Extra features</li>
+                                                <li>Lifetime free support</li>
+                                                <li>24/7 online support</li>
+                                                <li>Advice and guides</li>
+                                                <li>Tools and Calculators</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pr1-tab-btn">
+                                            <a href="#">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="pr1-tab-column">
+                                        <span class="pr1-tab-icon"><i class="flaticon-quality"></i></span>
+                                        <div class="pr1-headline">
+                                            <h5>Premium Plan</h5>
+                                        </div>
+                                        <div class="pr1-tab-price pr1-headline">
+                                            <h2>$3500 / <span>Yearly</span></h2>
+                                        </div>
+                                        <div class="pr1-tab-features">
+                                            <ul>
+                                                <li>Extra features</li>
+                                                <li>Lifetime free support</li>
+                                                <li>24/7 online support</li>
+                                                <li>Advice and guides</li>
+                                                <li>Tools and Calculators</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pr1-tab-btn">
+                                            <a href="#">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="pr1-pricing-shape-2" data-parallax='{"scale": 1.3}'><img src="assets/img/business-1/pricing-shape-2.png" alt=""></span>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonial Section -->   
+<section class="pr1-testimonial-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="pr1-title-area text-center wow fadeInUp">
+                    <div class="pr1-headline">
+                        <h2>What clients say about us</h2>
+                    </div>
+                    <div class="pr1-pera-txt p-70">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pr1-clients-slider-wrapper">
+            <div class="pr1-clients-slider">
+                <div class="pr1-client-single">
+                    <div class="pr1-clients-quote">
+                        <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                        <div class="pr1-pera-txt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt s gravida---- <span class="client-name">Ana Lopez wilson</span></p>
+
+                        </div>
+                    </div>
+                    <div class="pr1-clients-thumb">
+                        <img src="assets/img/business-1/testimonial/client-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="pr1-client-single">
+                    <div class="pr1-clients-quote">
+                        <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                        <div class="pr1-pera-txt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt s gravida---- <span class="client-name">Ana Lopez wilson</span></p>
+
+                        </div>
+                    </div>
+                    <div class="pr1-clients-thumb">
+                        <img src="assets/img/business-1/testimonial/client-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="pr1-client-single">
+                    <div class="pr1-clients-quote">
+                        <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                        <div class="pr1-pera-txt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt s gravida---- <span class="client-name">Ana Lopez wilson</span></p>
+
+                        </div>
+                    </div>
+                    <div class="pr1-clients-thumb">
+                        <img src="assets/img/business-1/testimonial/client-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="pr1-client-single">
+                    <div class="pr1-clients-quote">
+                        <span class="quote-icon"><i class="fas fa-quote-left"></i></span>
+                        <div class="pr1-pera-txt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt s gravida---- <span class="client-name">Ana Lopez wilson</span></p>
+
+                        </div>
+                    </div>
+                    <div class="pr1-clients-thumb">
+                        <img src="assets/img/business-1/testimonial/client-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section class="pr1-blog-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="pr1-title-area text-center wow fadeInDown">
+                    <div class="pr1-headline">
+                        <h2>Our Latest blog post will learn business consulting</h2>
+                    </div>
+                    <div class="pr1-pera-txt p-70">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pr1-blog-content">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-blog-column wow fadeInUp">
+                        <div class="pr1-img-wrapper">
+                            <img src="assets/img/business-1/blog/01.jpg" alt="">
+                        </div>
+                        <div class="pr1-blog-author">
+                            <div class="author-img">
+                                <img src="assets/img/business-1/blog/author-1.png" alt="">
+                            </div>
+                            <div class="author-info pr1-headline">
+                                <a href="#"><h6>Joshep brathwaith</h6></a>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                        <div class="pr1-headline pr1-blog-title">
+                            <a href="#"><h5>Survival strategies to ensure business domination</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>Business we opertes in is like an intericate games and chess where every move counts</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-blog-column wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pr1-img-wrapper">
+                            <img src="assets/img/business-1/blog/02.jpg" alt="">
+                        </div>
+                        <div class="pr1-blog-author">
+                            <div class="author-img">
+                                <img src="assets/img/business-1/blog/author-1.png" alt="">
+                            </div>
+                            <div class="author-info pr1-headline">
+                                <a href="#"><h6>Joshep brathwaith</h6></a>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                        <div class="pr1-headline pr1-blog-title">
+                            <a href="#"><h5>Survival strategies to ensure business domination</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>Business we opertes in is like an intericate games and chess where every move counts</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="pr1-blog-column wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="pr1-img-wrapper">
+                            <img src="assets/img/business-1/blog/03.jpg" alt="">
+                        </div>
+                        <div class="pr1-blog-author">
+                            <div class="author-img">
+                                <img src="assets/img/business-1/blog/author-1.png" alt="">
+                            </div>
+                            <div class="author-info pr1-headline">
+                                <a href="#"><h6>Joshep brathwaith</h6></a>
+                                <span>Consultant</span>
+                            </div>
+                        </div>
+                        <div class="pr1-headline pr1-blog-title">
+                            <a href="#"><h5>Survival strategies to ensure business domination</h5></a>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>Business we opertes in is like an intericate games and chess where every move counts</p>
+                        </div>
+                        <div class="pr1-readmore-btn">
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section End -->
+
+<!-- Footer Section -->
+<footer class="pr1-footer-section" data-background="assets/img/business-1/business/bg.jpg">
+    <div class="container">
+        <div class="pr1-footer-top">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="pr1-title-area wow fadeInUp">
+                        <div class="pr1-headline">
+                            <h2>Get a free consulting</h2>
+                        </div>
+                        <div class="pr1-pera-txt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="pr1-footer-newsletter wow fadeInUp" data-wow-delay="0.2s">
+                        <form action="#"> 
+                            <input type="email" placeholder="Enter Your Email">
+                            <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer">
+                <hr>
+            </div>
+        </div>
+        <div class="pr1-footer-contents">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="pr1-footer-widget wow fadeInUp">
+                        <a href="index.html" class="logo"><img src="assets/img/business-1/logo.png"></a>
+                        <div class="pr1-pera-txt">
+                            <p>tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="pr1-footer-btn">
+                            <a href="#">Buy Prysm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="pr1-footer-widget wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pr1-headline">
+                            <h6>Usefull link</h6>
+                        </div>
+                        <div class="pr1-footer-links">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Consultant</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="pr1-footer-widget wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="pr1-headline">
+                            <h6>Service</h6>
+                        </div>
+                        <div class="pr1-footer-links">
+                            <ul>
+                                <li><a href="#">Audit & assurance</a></li>
+                                <li><a href="#">financial advisory</a></li>
+                                <li><a href="#">analytics and M&A</a></li>
+                                <li><a href="#">middle marketing</a></li>
+                                <li><a href="#">legal consulting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="pr1-footer-widget wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="pr1-headline">
+                            <h6>Need Help</h6>
+                        </div>
+                        <div class="pr1-footer-links">
+                            <ul>
+                                <li><a href="#">FAQS</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Get a quote</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="pr1-footer-widget wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="pr1-headline">
+                            <h6>Contact Us</h6>
+                        </div>
+                        <div class="pr1-ft-contact">
+                            <ul>
+                                <li><i class="fas fa-home"></i>1700 W Blancke St, kiyev port south USA, America</li>
+                                <li><i class="fas fa-phone"></i>+3255 456 789</li>
+                                <li><i class="fas fa-envelope"></i>mail@prysm.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer">
+            <hr>
+        </div>
+    </div>
+    <div class="pr1-footer-copyright text-center">
+        <div class="pr1-pera-txt">
+            <p>&copy; 2023
+             <meta name="keywords" content="	accountant, advertising, advisor, agency, broker, business, clean, consulting, creative, elementor, finance, insurance, marketing, modern, portfolio"> Saasio - Business. All rights reserved</p>
+         </div>
+     </div>
+ </footer>
+
+ <!-- Javascript Files -->
+ <script src="assets/js/jquery.js"></script>
+ <script src="assets/js/bootstrap.min.js"></script>
+ <script src="assets/js/slick.js"></script>
+ <script src="assets/js/jquery.counterup.min.js"></script>
+ <script src="assets/js/waypoints.min.js"></script>
+ <script src="assets/js/wow.min.js"></script>
+ <script src="assets/js/rbtools.min.js"></script>
+ <script src="assets/js/rs6.min.js"></script>
+ <script src="assets/js/parallax-scroll.js"></script>
+ <script src="assets/js/side-demo.js"></script>
+ <script src="assets/js/business-1.js"></script>
+
+ <script>	
+    var	revapi26,
+    tpj;
+    function revinit_revslider261() {
+        jQuery(function() {
+            tpj = jQuery;
+            revapi26 = tpj("#rev_slider_26_1");
+            if(revapi26==undefined || revapi26.revolution == undefined){
+                revslider_showDoubleJqueryError("rev_slider_26_1");
+            }else{
+                revapi26.revolution({
+                    DPR:"dpr",
+                    sliderLayout:"fullwidth",
+                    visibilityLevels:"1240,1024,778,480",
+                    gridwidth:"940,1024,778,480",
+                    gridheight:"940,768,960,720",
+                    perspective:600,
+                    perspectiveType:"global",
+                    editorheight:"940,768,960,720",
+                    responsiveLevels:"1240,1024,778,480",
+                    ajaxUrl:"https://html.themexriver.com/nayeem/wp-admin/admin-ajax.php",
+                    ajaxNonce:"88dd63b4b0",
+                    progressBar:{disableProgressBar:true},
+                    navigation: {
+                        onHoverStop:false
+                    },
+                    fallbacks: {
+                        allowHTML5AutoPlayOnAndroid:true
+                    },
+                });
+            }
+
+        });
+    } 
+    var once_revslider261 = false;
+    jQuery(window).on("load", function(){
+        revinit_revslider261();
+    });
+</script>
+
+
+
+
+</body>
 </html>
